@@ -1,0 +1,20 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.nauto.com/legal/security-policy
+note: >-
+  Nauto publishes no public API, so no API-level (OAuth2/OIDC/RFC9457/etc.)
+  conformance can be asserted. This records the organizational compliance
+  posture the provider publishes on its Security Policy page.
+standards:
+  - id: soc2-type1
+    conforms: true
+    evidence: "Security Policy states 'SOC 2 Type 1 ... certified'"
+    source: https://www.nauto.com/legal/security-policy
+  - id: soc2-type2
+    conforms: true
+    evidence: "Security Policy states 'SOC 2 ... Type 2 certified'"
+    source: https://www.nauto.com/legal/security-policy
+  - id: iso-27001-2022
+    conforms: true
+    evidence: "Security Policy states 'ISO/IEC 27001:2022 certified'"
+    source: https://www.nauto.com/legal/security-policy

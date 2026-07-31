@@ -1,8 +1,26 @@
 aid: nauto
 name: Nauto
-description: 'Nauto is a company surfaced as a portfolio company of greylock, playground-global, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: deep-tech. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: >-
+  Nauto is a predictive AI platform for commercial fleet safety. Using in-vehicle
+  AI dash cams and computer vision, it monitors driver behavior in real time,
+  delivers predictive collision alerts before incidents occur, scores driver risk
+  with its VERA system, and powers driver coaching, exoneration, and incident
+  intelligence. Nauto also supports DVIR, IFTA, and ELD fleet-compliance workflows
+  across trucking, delivery, construction, passenger transit, and field-service
+  fleets. Backed by Greylock, Playground Global, and SoftBank Vision Fund, Nauto
+  is SOC 2 Type 1/2 and ISO/IEC 27001:2022 certified.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/68f2ba22f4fbdfa0c9e2e970/68f2bb29257a10b7e10c16ae_Webclip.png
 url: https://raw.githubusercontent.com/api-evangelist/nauto/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -14,10 +32,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Deep Tech
+- Fleet Safety
+- Fleet Management
+- Video Telematics
+- Driver Safety
+- Computer Vision
+- Artificial Intelligence
+- Dash Cam
+- Transportation
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -27,3 +53,33 @@ maintainers:
 common:
 - type: Website
   url: https://www.nauto.com/
+- type: Blog
+  url: https://www.nauto.com/blog
+- type: Support
+  url: https://www.nauto.com/contact
+- type: GitHubOrganization
+  url: https://github.com/nauto
+- type: LinkedIn
+  url: https://www.linkedin.com/company/nauto/
+- type: PrivacyPolicy
+  url: https://www.nauto.com/legal/website-visitors
+- type: TermsOfService
+  url: https://www.nauto.com/legal/solution-terms
+- type: Security
+  url: https://www.nauto.com/legal/security-policy
+- type: Compliance
+  url: https://www.nauto.com/legal/security-policy
+- type: Conformance
+  name: Compliance posture (SOC 2, ISO 27001)
+  url: conformance/nauto-conformance.yml
+- type: DomainSecurity
+  url: security/nauto-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/nauto-vulnerability-disclosure.yml
+- type: Lifecycle
+  url: lifecycle/nauto-lifecycle.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1

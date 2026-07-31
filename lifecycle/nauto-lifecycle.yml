@@ -1,0 +1,13 @@
+generated: '2026-07-20'
+method: searched
+source: https://www.nauto.com/legal
+note: >-
+  Nauto publishes no public API, so there is no API versioning or deprecation
+  policy to record. This captures the published commercial Service Level
+  Agreement. No public status page was found.
+sla:
+  url: https://www.nauto.com/legal/service-level-agreement
+versioning: null
+deprecation: null
+status_page: null
+deprecated_operations: []
