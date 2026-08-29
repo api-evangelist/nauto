@@ -9,6 +9,17 @@ description: >-
   across trucking, delivery, construction, passenger transit, and field-service
   fleets. Backed by Greylock, Playground Global, and SoftBank Vision Fund, Nauto
   is SOC 2 Type 1/2 and ISO/IEC 27001:2022 certified.
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
