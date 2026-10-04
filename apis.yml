@@ -51,7 +51,7 @@ tags:
 - Fleet Management
 - Video Telematics
 - Driver Safety
-- Computer-Vision
+- Computer Vision
 - Artificial Intelligence
 - Dash Cam
 - Transportation
@@ -66,6 +66,7 @@ tags_raw:
 - Artificial Intelligence
 - Dash Cam
 - Transportation
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
